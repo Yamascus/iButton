@@ -1,0 +1,48 @@
+{
+  "name": "i-button",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-stage": "vue-cli-service --mode staging",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "lint:dump": "eslint --print-config ./.eslintrc.json"
+  },
+  "dependencies": {
+    "core-js": "3.6.5",
+    "eslint-plugin-optimize-regex": "1.1.7",
+    "eslint-plugin-sonarjs": "0.5.0",
+    "typescript-estree": "18.1.0",
+    "vue": "2.6.12",
+    "vue-class-component": "7.2.5",
+    "vue-property-decorator": "8.5.1",
+    "vue-router": "3.4.3",
+    "vuetify": "2.2.34"
+  },
+  "devDependencies": {
+    "@mdi/font": "5.4.55",
+    "@types/jest": "24.9.1",
+    "@vue/cli-plugin-babel": "4.1.2",
+    "@vue/cli-plugin-eslint": "4.1.2",
+    "@vue/cli-plugin-router": "4.1.2",
+    "@vue/cli-plugin-typescript": "4.1.2",
+    "@vue/cli-service": "4.1.2",
+    "@vue/eslint-config-prettier": "5.1.0",
+    "@vue/eslint-config-typescript": "4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "eslint": "5.16.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-vue": "5.2.3",
+    "prettier": "1.19.1",
+    "sass": "1.26.10",
+    "sass-loader": "8.0.2",
+    "stylus": "0.54.8",
+    "stylus-loader": "3.0.2",
+    "typescript": "3.9.7",
+    "vue-cli-plugin-vuetify": "2.0.7",
+    "vue-template-compiler": "2.6.12",
+    "vuetify-loader": "1.6.0"
+  }
+}
